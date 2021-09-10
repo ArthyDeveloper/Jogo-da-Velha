@@ -1,0 +1,100 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.Logo{
+    position: absolute;
+    left: 50%;
+    width: 90px;
+    height: 90px;
+    transform: translate(-50%, -90px);
+    cursor: pointer;
+    user-select: none;
+}
+
+.Blocos{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 100px);
+    display: inline-block;
+    background-color: none;
+    width: fit-content;
+    height: fit-content;
+}
+
+.Título{
+    user-select: none;
+    color: white;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: default;
+    width: max-content;
+    font-size: 30px;
+}
+
+.Malha{
+    width: 306px;
+    height: fit-content;
+    border: solid white 1px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 20px);
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.Block{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 38px;
+    line-height: 95px;
+    user-select: none;
+    transition: 0.18s ease-in-out;
+    background-color: darkslategray;
+}
+.Block:hover{
+    background-color: lightseagreen!important;
+}
+
+.VezJogador{
+    position: relative;
+    cursor: default;
+    color: white;
+    font-size: 30px;
+    width: max-content;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 30px;
+    user-select: none;
+}
+
+.ReiniciarBotão{
+    background-color: whitesmoke;
+    padding: 7px 25px 7px 25px;
+    position: relative;
+    left: 50%;
+    margin-top: 10px;
+    transform: translate(-50%);
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s ease-in-out;
+    border-radius: 5px;
+}
+.ReiniciarBotão:hover{
+    background-color: gainsboro;
+}
