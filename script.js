@@ -442,8 +442,8 @@
                 console.log("Combinação X Vertical 1!")
                 VezTexto.innerHTML = "X é o ganhador!";
                 A1.style.background = "lightseagreen";
-                B2.style.background = "lightseagreen";
-                C3.style.background = "lightseagreen";
+                B1.style.background = "lightseagreen";
+                C1.style.background = "lightseagreen";
             }
             if (xa2 == 1 && xb2 == 1 && xc2 == 1){
                 ClickBlock();
